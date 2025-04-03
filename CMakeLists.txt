@@ -188,7 +188,7 @@ if(realsense2_FOUND)
     target_link_libraries(stereo_realsense_D435i ${PROJECT_NAME})
 endif()
 
-#Monocular examples
+#Monocular examples 单目示例
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Monocular)
 
 add_executable(mono_tum
@@ -217,7 +217,7 @@ if(realsense2_FOUND)
     target_link_libraries(mono_realsense_D435i ${PROJECT_NAME})
 endif()
 
-#Monocular inertial examples
+#Monocular inertial examples 单目惯性实例
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Monocular-Inertial)
 
 add_executable(mono_inertial_euroc
